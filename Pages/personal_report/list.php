@@ -1,7 +1,4 @@
 <?php
-ini_set('display_errors', '1');
-ini_set('display_startup_errors', '1');
-error_reporting(E_ALL);
 
 $db = DatabaseContext::dbConnect();
 
@@ -21,7 +18,6 @@ if($_SESSION['usertype'] == "admin"){
   
   }
   
-
 } else if($_SESSION['usertype'] == "user"){
 
   $CompanyList = $PersonalDto->getUserByUserId($_SESSION['userid'],$db);
