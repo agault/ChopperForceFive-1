@@ -108,8 +108,9 @@ if(isset($_POST['login-form__submitbutton'])){
         if(!isset($_SESSION['userid'])) {
           $_SESSION['userid'] = $accounts->user_id;
         }
-        ?><script>window.location.href = "./home.php";</script><?php //Redirect to list after a successful update
-        // header("Location: home.php");
+        
+        header("Location: home.php");
+        exit;
       }
 
     }
