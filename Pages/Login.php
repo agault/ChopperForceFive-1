@@ -2,17 +2,9 @@
     require_once 'header.php';
     
 ?>
-
-<style>
-  <?php 
-    include '../stylesheets/cff.css';
-    include '../stylesheets/login.css';
-  ?>
-  <?php
-    require_once '../Stylesheets/reports_page.css';
-  ?>
-
-</style>
+<link rel="stylesheet" href='../Stylesheets/cff.css'>
+<link rel="stylesheet" href='../Stylesheets/login.css'>
+<link rel="stylesheet" href='../Stylesheets/reports_page.css'>
 
 <script src="https://kit.fontawesome.com/ba2fdf1c36.js" crossorigin="anonymous"></script>
 
