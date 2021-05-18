@@ -1,5 +1,4 @@
 <?php 
-
 require_once "../Models/FamilyContact.php";
 require_once "../Models/User.php";
 require_once "../Models/DatabaseContext.php";
@@ -44,11 +43,11 @@ function validateFields($first_name, $last_name, $phone, $email, $address){
 if (isset($_POST['fc_create'])){
     $id = $_POST['fc_id'];
     $first_name = $_POST['fc_fName'];
-    $last_name = $_POST['fc_lastName'];
-    $relationship = $_POST['fc_relationship'];
-    $phone = $_POST['fc_phone'];
-    $email = $_POST['fc_email'];
-    $address = $_POST['fc_address'];
+        $last_name = $_POST['fc_lastName'];
+        $relationship = $_POST['fc_relationship'];
+        $phone = $_POST['fc_phone'];
+        $email = $_POST['fc_email'];
+        $address = $_POST['fc_address'];
     $preference_form = $_POST['preference_form'] == "Yes" ? true : false;
     $physical_location = !empty($_POST['fc_location']) ? $_POST['fc_location'] : "N/A" ; 
 

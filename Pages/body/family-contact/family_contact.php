@@ -44,14 +44,14 @@ if(isset($_GET['search']) && $searchKey){
                     <th scope="col">Full Name</th>
                     <th scope="col">Rank</th>
                     <th scope="col">Family Member Name</th>
-                    <th scope="col">Relationship</th>
-                    <th scope="col">Phone</th>
-                    <th scope="col">Email</th>
-                    <th scope="col">Family Member Mailing Address</th>
-                    <th scope="col">Preference Form</th>
+                        <th scope="col">Relationship</th>
+                        <th scope="col">Phone</th>
+                        <th scope="col">Email</th>
+                        <th scope="col">Family Member Mailing Address</th>
+                        <th scope="col">Preference Form</th>
                     <th scope="col">Physical Location(if Different)</th>
-                    <th scope="col"></th>
-                    <th scope="col"></th>
+                        <th scope="col"></th>
+                        <th scope="col"></th>
                 </tr>
             <thead>
             <tbody>
@@ -59,11 +59,11 @@ if(isset($_GET['search']) && $searchKey){
                     <tr>
                         <td><?= $contact->full_name; ?></td>
                         <td><?= $contact->rank; ?></td>
-                        <td><?= $contact->member_name; ?></td>
-                        <td><?= $contact->relationship; ?></td>
-                        <td><?= $contact->phone; ?></td>
-                        <td><?= $contact->email; ?></td>
-                        <td><?= $contact->address; ?></td>
+                            <td><?= $contact->member_name; ?></td>
+                            <td><?= $contact->relationship; ?></td>
+                            <td><?= $contact->phone; ?></td>
+                            <td><?= $contact->email; ?></td>
+                            <td><?= $contact->address; ?></td>
                         <td><?= $contact->preference_form ? 'Yes' : 'No'; ?></td>
                         <td><?= $contact->physical_location; ?></td>
                         <td>
