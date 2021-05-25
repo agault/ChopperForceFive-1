@@ -1,11 +1,11 @@
 
 
 # ChopperForceFive
-An HR application developed for the us army.
+An HR application developed for the us army. At the request of an active commander in the US military we came up with an application to facilitate his organizational needs. The application is PHP and SQL driven with both css and bootstrap for styling. The application gives the user full CRUD operations.
 ## To do
 - [x] Setup database
 - [x] Complete features
-- [ ] Organize file structure
+- [x] Organize file structure
 - [ ] Testing
 
 #
@@ -17,13 +17,13 @@ Homepage, Header, Nav, Footer, OER(Feature 1), NCOER(Feature 2), Pie Chart(Featu
 
 Home Page, Header, Nav and Footer:
 
-The Home page was created to house different features all of which would facilitate information flow to the user. The home page gives a snap shot of the organizations strengths and shortcomings. I created and included a pie chart to visualize the organization capacity strength. In the future I would create a pie Chart for Weapons Qualification, and the Physical Fitness report results. This would allow the commanding officer to monitor his organization and see where the short comings reside. From the Home page the user can easily naavigate to view the organization's reports.  
+The Home page was created to house different features all of which would facilitate information flow to the user. The home page gives a snap shot of the organizations strengths and shortcomings. I created and included a pie chart using the google charts API to visualize the organization capacity strength. In the future I would create a pie Chart for Weapons Qualification, and the Physical Fitness report results. This would allow the commanding officer to monitor his organization and see where the short comings reside. From the Home page the user can easily naavigate to view the organization's reports.  
 
 OER & NCOER: 
 
 The OER & NCOER page has full CRUD functionality. An OER & NCOER is similar to a report card. These two pages will track upcoming due OER & NCOER, who rated a soldier, and the scores of past OER & NCOER. Both OER & NCOER use their models to pull information from the db tables: users, enlisted_reportcards and officer_reportcards and pass that to the views. 
 
-
+Overall I would like to implement a functional login and regestration soon.
 
 **Jerrin Eldo Mazhuvancherry:** Login Functionality, Login Interface, Registration Interface, New User Registration functionality, Personnel Report (Interface, Create, Read, Update and Delete), Fitness Report(Interface, Create, Read, Delete and Update), Models - (PhysicalFitness, User, Fitness Category)
 
